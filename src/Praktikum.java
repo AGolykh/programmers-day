@@ -15,7 +15,7 @@ public class Praktikum {
     }
 
     public static boolean isLeapYear(int year) {
-        if (((year % 400) == 0) || (((year % 100) != 0) & ((year % 4) == 0))) {    // Если делится на 400 без остатка или не делится на 100 без остатка, но делится на 4
+        if (((year % 400) == 0) | (((year % 100) != 0) & ((year % 4) == 0))) {    // Если делится на 400 без остатка или не делится на 100 без остатка, но делится на 4
             return true;
         } else {
             return false;
